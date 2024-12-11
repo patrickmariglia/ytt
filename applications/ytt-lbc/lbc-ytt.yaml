@@ -1,0 +1,13 @@
+#@ load("@ytt:template", "template")
+#@ load("@ytt:library", "library")
+
+#@ aws_lbc = library.get("lbc")
+
+#@ def variables():
+vpcId: vpc-test
+region: region-test
+#@ end
+
+#@ this_template = aws_lbc.with_data_values(variables())
+
+--- #@ template.replace(this_template.eval())
