@@ -2,6 +2,5 @@ client_name: client
 argocd_cluster: in-cluster
 argocd_project: project-1
 
-valuesOverride:
-  fullnameOverride: "override-renamed-from-values"
+valuesOverride: {}
 
