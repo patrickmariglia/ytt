@@ -1,5 +1,5 @@
-client_name: client_name
+client_name: client
 argocd_cluster: in-cluster
 argocd_project: project-1
-fullnameOverride: "name_override"
+fullnameOverride: "nameOverride"
 
