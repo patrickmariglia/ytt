@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: app-2
-  namespace: app-namespace-2
+  namespace: app-namespace-1
 spec:
   selector:
     matchLabels:
